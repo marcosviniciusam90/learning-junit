@@ -8,9 +8,6 @@ public class Financing {
     private Double income;
     private Integer months;
 
-    public Financing() {
-    }
-
     public Financing(Double totalAmount, Double income, Integer months) {
         checkFinancingCondition(totalAmount, income, months);
         this.totalAmount = totalAmount;
